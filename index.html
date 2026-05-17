@@ -487,8 +487,9 @@
                  loading="lazy">
           </figure>
           <p class="content has-text-left">
-           (a) Existing methods inject prior information uniformly into the diffusion model, whereas our approach adopts a hierarchical strategy, distributing distinct priors across specific layers of the network. 
-           (b) The generation results of diffusion models are largely governed by representations encoded in the deep layers of the network, which play a dominant role in determining the final reconstruction.
+            (a) Existing methods inject prior information uniformly into the diffusion model, whereas our approach adopts a hierarchical strategy, distributing distinct priors across specific layers of the network. 
+            (b) The generation results of diffusion models are largely governed by representations encoded in the deep layers of the network, which play a dominant role in determining the final reconstruction. 
+            (c) Visual comparison between the LQ inputs and our restoration results.
           </p>
         </div>
       </div>
@@ -503,7 +504,7 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified abstract-text">
               <p>
-                All-in-one image restoration aims to address diverse degradation types using a single unified model. 
+                All-in-one image restoration aims to address diverse degradation types within a unified model.
                 Existing methods typically rely on degradation priors to guide restoration, yet often struggle to reconstruct content in severely degraded regions. 
                 Although recent works leverage semantic information to facilitate content generation, integrating it into the shallow layers of diffusion models often disrupts spatial structures (e.g., blurring artifacts).
                 To address this issue, we propose a Triple-Prior Guided Diffusion (TPGDiff) network for unified image restoration.
